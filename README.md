@@ -60,7 +60,7 @@ verify:
 ### 1️⃣ Install InfraFlow
 Clone the repository and install dependencies:
 ```bash
-git clone [https://github.com/your-repo/infraflow.git](https://github.com/metagrati/InfraFlow)
+git clone https://github.com/your-repo/infraflow.git
 cd infraflow
 pip install -r requirements.txt
 ```
