@@ -60,7 +60,7 @@ verify:
 ### 1️⃣ Install InfraFlow
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/your-repo/infraflow.git
+git clone [https://github.com/your-repo/infraflow.git](https://github.com/metagrati/InfraFlow)
 cd infraflow
 pip install -r requirements.txt
 ```
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 ### 2️⃣ Convert DSL to Ansible Playbook
 Run the InfraFlow parser to generate an Ansible playbook:
 ```bash
-python dsl_to_ansible.py my_dsl.yaml > generated_playbook.yml
+python ifdsl_to_ansible.py example_playbook.yaml > generated_playbook.yml
 ```
 
 ### 3️⃣ Execute the Playbook
